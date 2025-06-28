@@ -1,25 +1,15 @@
-import { StyleSheet, Text, TextInput, View } from 'react-native'
+import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
-// import Icon from 'react-native-vector-icons/MaterialcommunityIcons';
-import { SafeAreaView } from 'react-native-safe-area-context'
+import ChatsScreen from './src/screen/ChatsScreen'
 
 const App = () => {
   return (
-    <SafeAreaView style={styles.container}>
-       <View>
-        <TextInput placeholder='rechercher' placeholderTextColor={'#131d1a'}/>
-        {/* <Icon name=''/> */}
-        </View> 
-    </SafeAreaView>
-    
+    // <View>
+      <ChatsScreen/>
+    // {/* </View> */}
   )
 }
 
 export default App
 
-const styles = StyleSheet.create({
-  container:{
-    flex:1,
-    backgroundColor:'#131d1a'
-  }
-})
+const styles = StyleSheet.create({})
