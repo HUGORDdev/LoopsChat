@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "649603825078",
+    "project_id": "loop-chat-237",
+    "storage_bucket": "loop-chat-237.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:649603825078:android:6d4fc0ac788e1d95be1517",
+        "android_client_info": {
+          "package_name": "com.loopchats"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXrpL55vMD9n_IVueHTLIuGpKMWed3jqc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
